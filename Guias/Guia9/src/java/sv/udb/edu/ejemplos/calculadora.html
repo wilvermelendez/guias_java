@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+             <form method="post" action = "calculadora.jsp"> 
+                   <h2>Operaciones Matematicas Basicas</h2> 
+                   <table cellspacing=5 cellpadding=5 bgcolor=#959999 colspan=2 rowspan=2 align=center> 
+                       <tr> 
+                           <td> <input type="radio" name="r1" value="sum" checked="true"/>Suma<br>
+                               <input type="radio" name="r1" value="resta" checked="false"/>Resta<br> 
+                               <input type="radio" name="r1" value="mul" checked="false"/>Multiplicacion<br> 
+                               <input type="radio" name="r1" value="div" checked="false"/>Division<br> 
+                           </td>
+                        </tr> 
+                        <tr> 
+                            <td> Ingresar primer operando: </td> 
+                            <td> <input type="text" name="t1"/> </td> 
+                        </tr> 
+                        <tr> 
+                            <td> Ingresar segundo operando: </td> 
+                            <td> <input type="text" name="t2"/> </td> 
+                        </tr>
+                        <tr>
+                            <td> <input type="submit" name="Enviar"› </td> 
+                        </tr> 
+                   </table> 
+             </form>
+        </div>
+    </body>
+</html>
